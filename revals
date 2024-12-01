@@ -14,7 +14,7 @@ Section:NewToggle("Esp", "вкл выкл есп", function(state)
     else
         Esp.Box = false
     end
-    end)
+end)
 
 local Tab = Window:NewTab("AIM")
 
@@ -31,9 +31,5 @@ Section:NewToggle("AIM", "вкл выкл aim", function(state)
         Aim.AutoClickEnabled = false
         Aim.LeftClickEnabled = false
         Aim.LockCameraEnabled = false
-    end
-    end)
-    end
-    end
     end
 end)
